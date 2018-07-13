@@ -28,7 +28,7 @@ public class LoginServiceImpl implements LoginService {
 		
 		if(optionalProject.isPresent()) {
 			loginDto  = new LoginDto();
-			loginDto.setIdCuenta(loginDto.getIdCuenta());
+			loginDto.setIdCuenta(cuentaDto.getIdCuenta());
 			loginDto.setNombre(cuentaDto.getNombre());
 			loginDto.setApellidos(cuentaDto.getApellidos());
 			loginDto.setTelefono(cuentaDto.getTelefono());
