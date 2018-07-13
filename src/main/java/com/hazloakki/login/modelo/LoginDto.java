@@ -1,17 +1,16 @@
-package com.hazloakki.cuenta.modelo;
+package com.hazloakki.login.modelo;
 
 /**
  * @author Jovani Arzate 2018-07-01 HazloAkki para Empresas v.1
  *
  */
-public class CuentaDto {
+public class LoginDto {
 
 	private String idCuenta;
 	private String nombre;
 	private String apellidos;
 	private String email;
 	private String telefono;
-	private String password;
 	private String fecha;
 	private boolean estatus;
 
@@ -53,14 +52,6 @@ public class CuentaDto {
 
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
 	}
 
 	public String getFecha() {
