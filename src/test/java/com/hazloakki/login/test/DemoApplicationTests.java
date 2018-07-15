@@ -1,4 +1,4 @@
-package com.hazloakki.cuenta.test;
+package com.hazloakki.login.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
